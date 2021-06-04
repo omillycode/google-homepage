@@ -14,13 +14,16 @@
     justify-content: center;
     margin: auto;
     min-width: 500px;
+    min-height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
 }
 .search-buttons {
     font-family: 'Arimo', sans-serif;
     display: flex;
     justify-content: center;
     margin: auto;
-    border-radius: 200px;
     padding: 20px;
 }
 
@@ -41,22 +44,25 @@
     background-color: whitesmoke;
     padding: 5px 20px;
     border: 0px;
-    border-radius: 10%;
+    border-radius: 5%;
     font-size: 20px;
 }
 
 #lucky-button {
         display: flex;
         justify-content: center;
-        margin: auto;
+        margin: auto 10px;
         background-color: whitesmoke;
         padding: 5px 20px;
         border: 0px;
-        border-radius: 10%;
+        border-radius: 5%;
         font-size: 20px;
     }
 
 #google-button:hover {
-    border: 10px;
-    border-color: black;
+    background-color: #ededed;
+}
+
+#lucky-button:hover {
+    background-color: #ededed;
 }
