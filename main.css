@@ -8,7 +8,7 @@
     justify-content: center;
     margin: auto;
     padding-top: 100px;
-    margin-top: auto;
+    margin-top: 100px;
 }
 #search-bar {
     display: flex;
@@ -26,6 +26,11 @@
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
 }
+
+#search-bar:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
 .search-buttons {
     font-family: 'Arimo', sans-serif;
     display: flex;
@@ -87,20 +92,22 @@
 #footer-bar {
     background-color: #f2f2f2;
     font-family: 'Arimo', sans-serif;
-    position: absolute;
+    position: fixed;
     width: 100%;
     margin-top: auto;
     bottom: 0;
     height: 45px;
-    padding: 10px 10px 0 10px;
+    padding: 10px;
 }
 .right-foot {
     float: right;
     padding: 10px;
+    margin-right: 10px;
 }
 .left-foot {
     float: left;
     padding: 10px;
+    margin-left: 10px;
 }
 a:link{
     text-decoration: none;
