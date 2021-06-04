@@ -41,7 +41,7 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
     padding: 5px 20px;
     border: 0px;
     border-radius: 5%;
@@ -49,15 +49,15 @@
 }
 
 #lucky-button {
-        display: flex;
-        justify-content: center;
-        margin: auto 10px;
-        background-color: whitesmoke;
-        padding: 5px 20px;
-        border: 0px;
-        border-radius: 5%;
-        font-size: 20px;
-    }
+    display: flex;
+    justify-content: center;
+    margin: auto 10px;
+    background-color: #f5f5f5;
+    padding: 5px 20px;
+    border: 0px;
+    border-radius: 5%;
+    font-size: 20px;
+}
 
 #google-button:hover {
     background-color: #ededed;
@@ -65,4 +65,8 @@
 
 #lucky-button:hover {
     background-color: #ededed;
+}
+
+#right-footer {
+    float: right;
 }
